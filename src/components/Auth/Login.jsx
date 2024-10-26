@@ -73,7 +73,7 @@ const Login = ({ handleLogin }) => {
     return (
         <div className='flex h-screen w-screen items-center justify-center bg-gradient-to-r from-teal-500 to-green-400'>
             <div className='border-2 border-emerald-600 p-10 rounded-xl bg-white shadow-lg'>
-                <h1 className='text-3xl font-bold text-center mb-5 text-teal-600'>Welcome to ProjectPulse - a Task Management System</h1>
+                <h1 className='text-3xl font-bold text-center mb-5 text-teal-600'>Welcome to TaskSphere - a Task Management System</h1>
                 <p className='text-center text-lg text-gray-700 mb-4'>Tasks given to you by the admin that you have to complete.</p>
                 <form onSubmit={submitHandler} className='flex flex-col items-center justify-center gap-4'>
                     <input
