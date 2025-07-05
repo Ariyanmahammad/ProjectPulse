@@ -1,0 +1,19 @@
+# Node modules and build
+node_modules/
+client/node_modules/
+server/node_modules/
+build/
+dist/
+
+# System files
+*.log
+*.ini
+*.db
+*.pub
+*.lock
+.DS_Store
+.env
+
+# Android (if included)
+**/android/.gradle/
+**/android/.idea/
